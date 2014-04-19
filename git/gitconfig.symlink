@@ -1,0 +1,35 @@
+[user]
+	name = Jacob Fierro
+	email = jacob.fierro@gmail.com
+
+[alias]
+	st = status
+	co = checkout
+	sp = stash pop
+	di = diff
+	dc = diff --cached
+	mylog = log --author=Jacob
+
+	head = !git l -1
+	h = !git head
+	r = !git l -20
+	l = "!source ~/.githelpers && pretty_git_log"
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = true
+	pager = true
+
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
+
+[github]
+	user = JacobFierro
+[credential]
+	helper = osxkeychain
+[rerere]
+	enabled = 1
